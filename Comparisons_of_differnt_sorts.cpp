@@ -180,10 +180,10 @@ int main()
 	int randomnum,randomval;
 	cout<<"                                 no of comparisons required by \n";
 	cout<<"                      -----------------------------------------------------\n";
-  	cout<<"no. of values input   merge sort   insertion sort   Rquick sort   heap sort\n";
+  	cout<<"no. of values input   Quick-Sort   Insertion-Sort   Quick-Sort   Heap-Sort\n";
   	for(int i=0;i<100;i++){
   	  compmerge =0,compins =0,compquick =0,compheap =0;
-	  randomnum = 30 + rand() % (970);
+	  randomnum = 30 + rand() % (970);	//generate random number
 	  int arrmerge[randomnum];
 	  int arrins[randomnum];
 	  int arrquick[randomnum];
