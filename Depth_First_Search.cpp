@@ -43,6 +43,7 @@ int main()
 {
 	int nv,ne,dir,help,ep,stf,ext;
 	begin:
+	cout<<"-----------DEPTH FIRST SEARCH----------";
 	cout<<"Enter the no. of vertices : ";
 	cin>>nv;
 	
